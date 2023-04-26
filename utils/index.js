@@ -1,3 +1,4 @@
+//code to check image url is valid or not
 export const checkImageURL = (url) => {
     if (!url) return false
     else {
