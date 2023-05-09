@@ -16,7 +16,7 @@ const useFetch = (endpoint, query) => {
     params: { ...query },
   };
 
-  // this method will fetch the data from api
+
   const fetchData = async () => {
     setIsLoading(true);
 
